@@ -1,0 +1,1 @@
+![build](https://github.com/shiv15/datarata/actions/workflows/gradle.yml/badge.svg)
