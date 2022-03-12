@@ -21,4 +21,4 @@ jobs:
         distribution: 'adopt'
         cache: gradle
     - name: Build with Gradle
-      run: bash datarata/gradlew -p datarata build
+      run: ./gradlew build --stacktrace
