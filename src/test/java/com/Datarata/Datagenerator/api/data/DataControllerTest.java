@@ -10,13 +10,13 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-// import static org.junit.jupiter.api.Assertions.fail;
-// import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-// import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-// import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.junit.jupiter.api.Assertions.fail;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 
 
-@WebMvcTest(DataController.class)
+// @WebMvcTest(DataController.class)
 public class DataControllerTest {
 
     @MockBean
@@ -39,7 +39,7 @@ public class DataControllerTest {
             
         } catch (Exception e) {
             e.printStackTrace();
-            // fail(e.getMessage());
+            fail(e.getMessage());
         }
     }
 }
